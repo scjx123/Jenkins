@@ -4,7 +4,7 @@
     stages {
         stage('build') {
             steps {
-                bat 'set' 
+                echo "hello world"
             }
         }
     }
